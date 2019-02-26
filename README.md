@@ -2,7 +2,7 @@
 Find the root of a git repository (pilfered from https://stackoverflow.com/a/53675112)
 
 ```shell
-pip install git+https://github.axa.com/jan-tilly/git_root
+pip install git+https://github.com/jtilly/git_root
 ```
 
 ```python
