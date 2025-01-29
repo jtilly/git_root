@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+authors = [{ name = "Jan Tilly", email = "jantilly@gmail.com" }]
+description = "Find the root of your git repo"
+name = "git_root"
+requires-python = ">=3.7"
+version = "0.2"
+
+[project.urls]
+repository = "https://github.com/jtilly/git_root"
+
+[tool.setuptools.packages.find]
+include = ["git_root*"]
